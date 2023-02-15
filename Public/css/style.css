@@ -76,3 +76,13 @@ button:hover {
     transform: translateY(-6px);
     border: #ff006e 8px solid;
 }
+
+@media (max-width: 400px) {
+    h1 {
+        text-align: center;
+    }
+    
+    input {
+        width: 300px;
+    }
+}
